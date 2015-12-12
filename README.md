@@ -10,7 +10,17 @@ SwiftyLogger is flexible logging abstraction written in Swift.
 ##Integration
 
 ####CocoaPods
-Comming soon!
+You can use [CocoaPods](http://cocoapods.org/) to install `Felucia` by adding it to your `Podfile`:
+
+```ruby
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MyApp' do
+	pod 'SwiftyLogger'
+end
+```
+Run `pods install` or `pods update` to intagrate pods with your project.
 
 ####Carthage
 You can use [Carthage](https://github.com/Carthage/Carthage) to install `SwiftyLogger ` by adding it to your `Cartfile`:
