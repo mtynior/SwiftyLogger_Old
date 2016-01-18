@@ -48,7 +48,7 @@ logger.logError("Error log")
 logger.logCritical("Critical log")
 ```
 
-### Available log funtions
+### Available log functions
 
 ```swift
 logDebug(message: "Debug log")
