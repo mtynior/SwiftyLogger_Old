@@ -17,7 +17,7 @@ public struct LogMessage {
     public var line: Int
     public var timestamp: NSDate
     
-    init (_ logLevel: LogLevel = LogLevel.Debug, _ message: String = "", _ file: String = "", _ function: String = "", _ line: Int = 0, _ timestamp: NSDate = NSDate() ) {
+    public init (_ logLevel: LogLevel = LogLevel.Debug, _ message: String = "", _ file: String = "", _ function: String = "", _ line: Int = 0, _ timestamp: NSDate = NSDate() ) {
         self.logLevel = logLevel
         self.message = message
         self.file = file

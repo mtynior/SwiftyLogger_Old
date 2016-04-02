@@ -16,7 +16,6 @@ public protocol LoggerFactoryType {
     
     var loggerTargets: [LoggerTargetType] { get set }
     
-
     func createLogger(loggerName:String) -> LoggerType
     
     func addTarget(target: LoggerTargetType) -> Void
