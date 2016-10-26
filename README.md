@@ -52,7 +52,7 @@ let package = Package(
 ```swift
 #import SwiftyLogger
 
-let loggerFactory = LoggerFactory().addCosole().addFile()
+let loggerFactory = DefaultLoggerFactory().addCosole().addFile()
 let logger = loggerFactory.makeLogger()
        
 logger.logDebug("Debug log")
@@ -124,7 +124,7 @@ By default minimum log level is set to `LogLevel.debug`.
 If you want to change minimum log level globally for all logger targets, then set the `LoggerFactory.minimumLogLevel` property:
 
 ```swift
-let loggerFactory = LoggerFactory()
+let loggerFactory = DefaultLoggerFactory()
 loggerFactory.minimumLogLevel = LogLevel.info
 ```
 
@@ -137,21 +137,21 @@ consoleLogger.minimumLogLevel = .Debug
 let fileLogger = FileLogger()
 fileLogger.minimumLogLevel = .Error
 
-let loggerFactory = LoggerFactory().addTarget(consoleLogger).addTarget(fileLogger)
+let loggerFactory = DefaultLoggerFactory().addTarget(consoleLogger).addTarget(fileLogger)
 ```
 
 ### Message formatter
 If you want to change message formatter for all logger targets, then set the `LoggerFactory.messageFormatter` property:
 
 ```swift
-let loggerFactory = LoggerFactory()
+let loggerFactory = DefaultLoggerFactory()
 loggerFactory.messageFormatter = ShortMessageFormatter()
 ```
 
 You can change the message formatter of the specific target using `LoggerTarget.messageFormatter`. If the message formatter for specific logger target is defined, then the global `LoggerFactory.messageFormatter ` is ignored:
 
 ```swift
-let loggerFactory = LoggerFactory()
+let loggerFactory = DefaultLoggerFactory()
 loggerFactory.messageFormatter = LongMessageFormatter() // 
 
 let consoleLogger = ConsoleLogger()
@@ -195,7 +195,7 @@ public final class MyLogFormatter: LogMessageFormatter {
 Set the formatter in factory:
 
 ```swift
-let loggerFactory = LoggerFactory()
+let loggerFactory = DefaultLoggerFactory()
 loggerFactory.messageFormatter = MyLogFormatter()
 ```
 
@@ -211,9 +211,9 @@ Default console logger is using `print` function to display log messages.
 
 ```swift
 let consoleLogger = ConsoleLogger()
-let loggerFactory = LoggerFactory().addTarget(consoleLogger)
+let loggerFactory = DefaultLoggerFactory().addTarget(consoleLogger)
 // or 
-let loggerFactory = LoggerFactory().addConsole()
+let loggerFactory = DefaultLoggerFactory().addConsole()
 ```
 
 ###File logger
@@ -222,18 +222,18 @@ By default, the file logger saves log messages in `Caches` folder in `applicatio
 
 ```swift
 let fileLogger = FileLogger()
-let loggerFactory = LoggerFactory().addTarget(fileLogger)
+let loggerFactory = DefaultLoggerFactory().addTarget(fileLogger)
 // or 
-let loggerFactory = LoggerFactory().addFile()
+let loggerFactory = DefaultLoggerFactory().addFile()
 ```
 
 You can specify name of the log file:
 
 ```swift
 let fileLogger = FileLogger(fileName: "myFile.log")
-let loggerFactory = LoggerFactory().addTarget(fileLogger)
+let loggerFactory = DefaultLoggerFactory().addTarget(fileLogger)
 // or 
-let loggerFactory = LoggerFactory().addFile("myFile.log")
+let loggerFactory = DefaultLoggerFactory().addFile("myFile.log")
 ```
 
 You can also specify the explicit path for the log file:
@@ -241,10 +241,10 @@ You can also specify the explicit path for the log file:
 ```swift
 let url = URL(path: "/path/to/file.log")
 let fileLogger = FileLogger(fileURL: url)
-let loggerFactory = LoggerFactory().addTarget(fileLogger)
+let loggerFactory = DefaultLoggerFactory().addTarget(fileLogger)
 // or 
 let url = URL(path: "/path/to/file.log")
-let loggerFactory = LoggerFactory().addFile(url)
+let loggerFactory = DefaultLoggerFactory().addFile(url)
 ```
 
 
@@ -296,13 +296,13 @@ Thats all. Now you can add your logger to the factory:
 
 ```swift
 let myLogger = MyLogger()
-let loggerFactory = LoggerFactory().addTarget(myLogger)
+let loggerFactory = DefaultLoggerFactory().addTarget(myLogger)
 ```
 
-To make things even easier you can extend the `LoggerFactoryType` protocol:
+To make things even easier you can extend the `LoggerFactory` protocol:
 
 ```swift 
-public func addMyLogger()  -> LoggerFactoryType {
+public func addMyLogger()  -> LoggerFactory {
 	self.addTarget(MyLogger())
    	return self
 }
@@ -310,7 +310,7 @@ public func addMyLogger()  -> LoggerFactoryType {
 Now you can add your logger to the factory using fluent API:
 
 ```swift
-let loggerFactory = LoggerFactory().addMyLogger()
+let loggerFactory = DefaultLoggerFactory().addMyLogger()
 ```
 
 ##License

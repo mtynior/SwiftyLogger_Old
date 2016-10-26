@@ -107,12 +107,12 @@ extension FileLogger {
 
 public extension LoggerFactory {
     
-    public func addFile(fileName: String = FileLogger.defultFileName)  -> LoggerFactory {
+    public func addFile(_ fileName: String = FileLogger.defultFileName)  -> LoggerFactory {
         self.addTarget(FileLogger(fileName: fileName))
         return self
     }
     
-    public func addFile(fileURL: URL)  -> LoggerFactory {
+    public func addFile(_ fileURL: URL)  -> LoggerFactory {
         self.addTarget(FileLogger(fileURL: fileURL))
         return self
     }
