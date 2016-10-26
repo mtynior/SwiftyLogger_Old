@@ -2,8 +2,8 @@
 //  SwiftyLoggerTests.swift
 //  SwiftyLoggerTests
 //
-//  Created by Michał Tynior on 12/12/15.
-//  Copyright © 2015 Michał Tynior. All rights reserved.
+//  Created by Michal Tynior on 26/10/2016.
+//  Copyright © 2016 Michał Tynior. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +28,7 @@ class SwiftyLoggerTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

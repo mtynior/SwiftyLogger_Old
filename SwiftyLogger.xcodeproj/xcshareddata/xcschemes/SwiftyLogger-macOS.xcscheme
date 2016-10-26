@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "900EE7001CB008CE004AF16A"
-               BuildableName = "SwiftyLogger_macOS.framework"
-               BlueprintName = "SwiftyLogger_macOS"
+               BlueprintIdentifier = "90451F7D1DC0B4E300809804"
+               BuildableName = "SwiftyLogger.framework"
+               BlueprintName = "SwiftyLogger-macOS"
                ReferencedContainer = "container:SwiftyLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "900EE7001CB008CE004AF16A"
-            BuildableName = "SwiftyLogger_macOS.framework"
-            BlueprintName = "SwiftyLogger_macOS"
+            BlueprintIdentifier = "90451F7D1DC0B4E300809804"
+            BuildableName = "SwiftyLogger.framework"
+            BlueprintName = "SwiftyLogger-macOS"
             ReferencedContainer = "container:SwiftyLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "900EE7001CB008CE004AF16A"
-            BuildableName = "SwiftyLogger_macOS.framework"
-            BlueprintName = "SwiftyLogger_macOS"
+            BlueprintIdentifier = "90451F7D1DC0B4E300809804"
+            BuildableName = "SwiftyLogger.framework"
+            BlueprintName = "SwiftyLogger-macOS"
             ReferencedContainer = "container:SwiftyLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

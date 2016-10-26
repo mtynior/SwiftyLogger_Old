@@ -7,433 +7,450 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		900EE7091CB008DF004AF16A /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C4A95E1C1C98C100096C1E /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		900EE70A1CB008F7004AF16A /* LoggerFactoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9961C1C994500096C1E /* LoggerFactoryType.swift */; };
-		900EE70B1CB008F7004AF16A /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9971C1C994500096C1E /* LoggerTarget.swift */; };
-		900EE70C1CB008F7004AF16A /* LoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9981C1C994500096C1E /* LoggerType.swift */; };
-		900EE70D1CB008F7004AF16A /* LoggerTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9991C1C994500096C1E /* LoggerTypeExtensions.swift */; };
-		900EE70E1CB008F7004AF16A /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99A1C1C994500096C1E /* LogLevel.swift */; };
-		900EE70F1CB008F7004AF16A /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99B1C1C994500096C1E /* LogMessage.swift */; };
-		900EE7101CB008F7004AF16A /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99C1C1C994500096C1E /* LogMessageFormatterType.swift */; };
-		900EE7111CB008F7004AF16A /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99E1C1C994500096C1E /* Console.swift */; };
-		900EE7121CB008F7004AF16A /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99F1C1C994500096C1E /* FileLogger.swift */; };
-		900EE7131CB008F7004AF16A /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A11C1C994500096C1E /* DefaultLogMessageFormatter.swift */; };
-		900EE7141CB008F7004AF16A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A21C1C994500096C1E /* Logger.swift */; };
-		900EE7151CB008F7004AF16A /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A31C1C994500096C1E /* LoggerFactory.swift */; };
-		900EE7161CB00901004AF16A /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C4A95E1C1C98C100096C1E /* SwiftyLogger.h */; };
-		900EE7171CB0090B004AF16A /* LoggerFactoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9961C1C994500096C1E /* LoggerFactoryType.swift */; };
-		900EE7181CB0090B004AF16A /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9971C1C994500096C1E /* LoggerTarget.swift */; };
-		900EE7191CB0090B004AF16A /* LoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9981C1C994500096C1E /* LoggerType.swift */; };
-		900EE71A1CB0090B004AF16A /* LoggerTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9991C1C994500096C1E /* LoggerTypeExtensions.swift */; };
-		900EE71B1CB0090B004AF16A /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99A1C1C994500096C1E /* LogLevel.swift */; };
-		900EE71C1CB0090B004AF16A /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99B1C1C994500096C1E /* LogMessage.swift */; };
-		900EE71D1CB0090B004AF16A /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99C1C1C994500096C1E /* LogMessageFormatterType.swift */; };
-		900EE71E1CB0090B004AF16A /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99E1C1C994500096C1E /* Console.swift */; };
-		900EE71F1CB0090B004AF16A /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99F1C1C994500096C1E /* FileLogger.swift */; };
-		900EE7201CB0090B004AF16A /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A11C1C994500096C1E /* DefaultLogMessageFormatter.swift */; };
-		900EE7211CB0090B004AF16A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A21C1C994500096C1E /* Logger.swift */; };
-		900EE7221CB0090B004AF16A /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A31C1C994500096C1E /* LoggerFactory.swift */; };
-		900EE7231CB00916004AF16A /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C4A95E1C1C98C100096C1E /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		900EE7241CB00928004AF16A /* LoggerFactoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9961C1C994500096C1E /* LoggerFactoryType.swift */; };
-		900EE7251CB00928004AF16A /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9971C1C994500096C1E /* LoggerTarget.swift */; };
-		900EE7261CB00928004AF16A /* LoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9981C1C994500096C1E /* LoggerType.swift */; };
-		900EE7271CB00928004AF16A /* LoggerTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9991C1C994500096C1E /* LoggerTypeExtensions.swift */; };
-		900EE7281CB00928004AF16A /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99A1C1C994500096C1E /* LogLevel.swift */; };
-		900EE7291CB00928004AF16A /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99B1C1C994500096C1E /* LogMessage.swift */; };
-		900EE72A1CB00928004AF16A /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99C1C1C994500096C1E /* LogMessageFormatterType.swift */; };
-		900EE72B1CB00928004AF16A /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99E1C1C994500096C1E /* Console.swift */; };
-		900EE72C1CB00928004AF16A /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99F1C1C994500096C1E /* FileLogger.swift */; };
-		900EE72D1CB00928004AF16A /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A11C1C994500096C1E /* DefaultLogMessageFormatter.swift */; };
-		900EE72E1CB00928004AF16A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A21C1C994500096C1E /* Logger.swift */; };
-		900EE72F1CB00928004AF16A /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A31C1C994500096C1E /* LoggerFactory.swift */; };
-		900EE7331CB0096F004AF16A /* Info-macOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 900EE7301CB0096F004AF16A /* Info-macOS.plist */; };
-		900EE7341CB0096F004AF16A /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 900EE7311CB0096F004AF16A /* Info-tvOS.plist */; };
-		900EE7351CB0096F004AF16A /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 900EE7321CB0096F004AF16A /* Info-watchOS.plist */; };
-		90C4A95F1C1C98C100096C1E /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C4A95E1C1C98C100096C1E /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90C4A9661C1C98C100096C1E /* SwiftyLogger_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C4A95B1C1C98C100096C1E /* SwiftyLogger_iOS.framework */; };
-		90C4A96B1C1C98C100096C1E /* SwiftyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A96A1C1C98C100096C1E /* SwiftyLoggerTests.swift */; };
-		90C4A9A41C1C994500096C1E /* LoggerFactoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9961C1C994500096C1E /* LoggerFactoryType.swift */; };
-		90C4A9A51C1C994500096C1E /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9971C1C994500096C1E /* LoggerTarget.swift */; };
-		90C4A9A61C1C994500096C1E /* LoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9981C1C994500096C1E /* LoggerType.swift */; };
-		90C4A9A71C1C994500096C1E /* LoggerTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9991C1C994500096C1E /* LoggerTypeExtensions.swift */; };
-		90C4A9A81C1C994500096C1E /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99A1C1C994500096C1E /* LogLevel.swift */; };
-		90C4A9A91C1C994500096C1E /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99B1C1C994500096C1E /* LogMessage.swift */; };
-		90C4A9AA1C1C994500096C1E /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99C1C1C994500096C1E /* LogMessageFormatterType.swift */; };
-		90C4A9AB1C1C994500096C1E /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99E1C1C994500096C1E /* Console.swift */; };
-		90C4A9AC1C1C994500096C1E /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A99F1C1C994500096C1E /* FileLogger.swift */; };
-		90C4A9AD1C1C994500096C1E /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A11C1C994500096C1E /* DefaultLogMessageFormatter.swift */; };
-		90C4A9AE1C1C994500096C1E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A21C1C994500096C1E /* Logger.swift */; };
-		90C4A9AF1C1C994500096C1E /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A9A31C1C994500096C1E /* LoggerFactory.swift */; };
+		90451F3F1DC0B04A00809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90451F501DC0B08D00809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
+		90451F511DC0B08D00809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
+		90451F521DC0B08D00809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
+		90451F531DC0B08D00809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
+		90451F541DC0B08D00809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
+		90451F551DC0B08D00809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
+		90451F561DC0B08D00809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
+		90451F571DC0B08D00809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
+		90451F581DC0B08D00809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
+		90451F591DC0B08D00809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
+		90451F5A1DC0B08D00809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
+		90451F5B1DC0B08D00809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
+		90451F5C1DC0B08D00809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
+		90451F5D1DC0B0F500809804 /* SwiftyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F3A1DC0B03B00809804 /* SwiftyLoggerTests.swift */; };
+		90451F861DC0B66C00809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90451F871DC0B67400809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90451F881DC0B68300809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90451F891DC0B6B300809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
+		90451F8A1DC0B6B300809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
+		90451F8B1DC0B6B300809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
+		90451F8C1DC0B6B300809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
+		90451F8D1DC0B6B300809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
+		90451F8E1DC0B6B300809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
+		90451F8F1DC0B6B300809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
+		90451F901DC0B6B300809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
+		90451F911DC0B6B300809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
+		90451F921DC0B6B300809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
+		90451F931DC0B6B300809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
+		90451F941DC0B6B300809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
+		90451F951DC0B6B300809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
+		90451F961DC0B6C600809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
+		90451F971DC0B6C600809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
+		90451F981DC0B6C600809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
+		90451F991DC0B6C600809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
+		90451F9A1DC0B6C600809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
+		90451F9B1DC0B6C600809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
+		90451F9C1DC0B6C600809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
+		90451F9D1DC0B6C600809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
+		90451F9E1DC0B6C600809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
+		90451F9F1DC0B6C600809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
+		90451FA01DC0B6C600809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
+		90451FA11DC0B6C600809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
+		90451FA21DC0B6C600809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
+		90451FA31DC0B6D300809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
+		90451FA41DC0B6D300809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
+		90451FA51DC0B6D300809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
+		90451FA61DC0B6D300809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
+		90451FA71DC0B6D300809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
+		90451FA81DC0B6D300809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
+		90451FA91DC0B6D300809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
+		90451FAA1DC0B6D300809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
+		90451FAB1DC0B6D300809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
+		90451FAC1DC0B6D300809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
+		90451FAD1DC0B6D300809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
+		90451FAE1DC0B6D300809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
+		90451FAF1DC0B6D300809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
+		908B7B541DC0AFA300148CF8 /* SwiftyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90C4A9671C1C98C100096C1E /* PBXContainerItemProxy */ = {
+		908B7B551DC0AFA300148CF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 90C4A9521C1C98C100096C1E /* Project object */;
+			containerPortal = 908B7B411DC0AFA300148CF8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 90C4A95A1C1C98C100096C1E;
+			remoteGlobalIDString = 908B7B491DC0AFA300148CF8;
 			remoteInfo = SwiftyLogger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		900EE6E71CB00888004AF16A /* SwiftyLogger_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		900EE6F41CB008AA004AF16A /* SwiftyLogger_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		900EE7011CB008CE004AF16A /* SwiftyLogger_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		900EE7301CB0096F004AF16A /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
-		900EE7311CB0096F004AF16A /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		900EE7321CB0096F004AF16A /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
-		90C4A95B1C1C98C100096C1E /* SwiftyLogger_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C4A95E1C1C98C100096C1E /* SwiftyLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLogger.h; sourceTree = "<group>"; };
-		90C4A9601C1C98C100096C1E /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		90C4A9651C1C98C100096C1E /* SwiftyLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C4A96A1C1C98C100096C1E /* SwiftyLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLoggerTests.swift; sourceTree = "<group>"; };
-		90C4A96C1C1C98C100096C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90C4A9961C1C994500096C1E /* LoggerFactoryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerFactoryType.swift; sourceTree = "<group>"; };
-		90C4A9971C1C994500096C1E /* LoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerTarget.swift; sourceTree = "<group>"; };
-		90C4A9981C1C994500096C1E /* LoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerType.swift; sourceTree = "<group>"; };
-		90C4A9991C1C994500096C1E /* LoggerTypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerTypeExtensions.swift; sourceTree = "<group>"; };
-		90C4A99A1C1C994500096C1E /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
-		90C4A99B1C1C994500096C1E /* LogMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessage.swift; sourceTree = "<group>"; };
-		90C4A99C1C1C994500096C1E /* LogMessageFormatterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessageFormatterType.swift; sourceTree = "<group>"; };
-		90C4A99E1C1C994500096C1E /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
-		90C4A99F1C1C994500096C1E /* FileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
-		90C4A9A11C1C994500096C1E /* DefaultLogMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLogMessageFormatter.swift; sourceTree = "<group>"; };
-		90C4A9A21C1C994500096C1E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		90C4A9A31C1C994500096C1E /* LoggerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerFactory.swift; sourceTree = "<group>"; };
+		90451F381DC0B03600809804 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		90451F3A1DC0B03B00809804 /* SwiftyLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyLoggerTests.swift; path = Tests/SwiftyLoggerTests.swift; sourceTree = SOURCE_ROOT; };
+		90451F3C1DC0B04A00809804 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		90451F3D1DC0B04A00809804 /* SwiftyLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyLogger.h; path = Source/SwiftyLogger.h; sourceTree = SOURCE_ROOT; };
+		90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLoggerTarget.swift; sourceTree = "<group>"; };
+		90451F421DC0B08D00809804 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		90451F431DC0B08D00809804 /* LoggerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerExtensions.swift; sourceTree = "<group>"; };
+		90451F441DC0B08D00809804 /* LoggerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerFactory.swift; sourceTree = "<group>"; };
+		90451F451DC0B08D00809804 /* LoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerTarget.swift; sourceTree = "<group>"; };
+		90451F461DC0B08D00809804 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		90451F471DC0B08D00809804 /* LogMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessage.swift; sourceTree = "<group>"; };
+		90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessageFormatterType.swift; sourceTree = "<group>"; };
+		90451F491DC0B08D00809804 /* DefaultLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultLogger.swift; path = Source/DefaultLogger.swift; sourceTree = SOURCE_ROOT; };
+		90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultLoggerFactory.swift; path = Source/DefaultLoggerFactory.swift; sourceTree = SOURCE_ROOT; };
+		90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLogger.swift; sourceTree = "<group>"; };
+		90451F4D1DC0B08D00809804 /* FileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
+		90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLogMessageFormatter.swift; sourceTree = "<group>"; };
+		90451F5E1DC0B16A00809804 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		90451F641DC0B48B00809804 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90451F711DC0B4BB00809804 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90451F7E1DC0B4E300809804 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90451FB01DC0B83500809804 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		90451FB11DC0B83500809804 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		90451FB21DC0B83500809804 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90451FB31DC0B83500809804 /* SwiftyLogger.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftyLogger.podspec; sourceTree = "<group>"; };
+		908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908B7B531DC0AFA300148CF8 /* SwiftyLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		900EE6E31CB00888004AF16A /* Frameworks */ = {
+		90451F601DC0B48B00809804 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6F01CB008AA004AF16A /* Frameworks */ = {
+		90451F6D1DC0B4BB00809804 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6FD1CB008CE004AF16A /* Frameworks */ = {
+		90451F7A1DC0B4E300809804 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9571C1C98C100096C1E /* Frameworks */ = {
+		908B7B461DC0AFA300148CF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9621C1C98C100096C1E /* Frameworks */ = {
+		908B7B501DC0AFA300148CF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C4A9661C1C98C100096C1E /* SwiftyLogger_iOS.framework in Frameworks */,
+				908B7B541DC0AFA300148CF8 /* SwiftyLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90C4A9511C1C98C100096C1E = {
+		90451F401DC0B08D00809804 /* Abstraction */ = {
 			isa = PBXGroup;
 			children = (
-				90C4A95D1C1C98C100096C1E /* SwiftyLogger */,
-				90C4A9691C1C98C100096C1E /* SwiftyLoggerTests */,
-				90C4A95C1C1C98C100096C1E /* Products */,
+				90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */,
+				90451F421DC0B08D00809804 /* Logger.swift */,
+				90451F431DC0B08D00809804 /* LoggerExtensions.swift */,
+				90451F441DC0B08D00809804 /* LoggerFactory.swift */,
+				90451F451DC0B08D00809804 /* LoggerTarget.swift */,
+				90451F461DC0B08D00809804 /* LogLevel.swift */,
+				90451F471DC0B08D00809804 /* LogMessage.swift */,
+				90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */,
+			);
+			name = Abstraction;
+			path = Source/Abstraction;
+			sourceTree = SOURCE_ROOT;
+		};
+		90451F4B1DC0B08D00809804 /* DefaultLoggers */ = {
+			isa = PBXGroup;
+			children = (
+				90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */,
+				90451F4D1DC0B08D00809804 /* FileLogger.swift */,
+			);
+			name = DefaultLoggers;
+			path = Source/DefaultLoggers;
+			sourceTree = SOURCE_ROOT;
+		};
+		90451F4E1DC0B08D00809804 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */,
+			);
+			name = Helpers;
+			path = Source/Helpers;
+			sourceTree = SOURCE_ROOT;
+		};
+		908B7B401DC0AFA300148CF8 = {
+			isa = PBXGroup;
+			children = (
+				90451FB01DC0B83500809804 /* CHANGELOG.md */,
+				90451FB11DC0B83500809804 /* LICENSE.md */,
+				90451FB21DC0B83500809804 /* README.md */,
+				90451FB31DC0B83500809804 /* SwiftyLogger.podspec */,
+				90451F5E1DC0B16A00809804 /* Package.swift */,
+				908B7B4C1DC0AFA300148CF8 /* Sources */,
+				908B7B571DC0AFA300148CF8 /* Tests */,
+				908B7B4B1DC0AFA300148CF8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		90C4A95C1C1C98C100096C1E /* Products */ = {
+		908B7B4B1DC0AFA300148CF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90C4A95B1C1C98C100096C1E /* SwiftyLogger_iOS.framework */,
-				90C4A9651C1C98C100096C1E /* SwiftyLoggerTests.xctest */,
-				900EE6E71CB00888004AF16A /* SwiftyLogger_watchOS.framework */,
-				900EE6F41CB008AA004AF16A /* SwiftyLogger_tvOS.framework */,
-				900EE7011CB008CE004AF16A /* SwiftyLogger_macOS.framework */,
+				908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */,
+				908B7B531DC0AFA300148CF8 /* SwiftyLoggerTests.xctest */,
+				90451F641DC0B48B00809804 /* SwiftyLogger.framework */,
+				90451F711DC0B4BB00809804 /* SwiftyLogger.framework */,
+				90451F7E1DC0B4E300809804 /* SwiftyLogger.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90C4A95D1C1C98C100096C1E /* SwiftyLogger */ = {
+		908B7B4C1DC0AFA300148CF8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				900EE7301CB0096F004AF16A /* Info-macOS.plist */,
-				900EE7311CB0096F004AF16A /* Info-tvOS.plist */,
-				900EE7321CB0096F004AF16A /* Info-watchOS.plist */,
-				90C4A9601C1C98C100096C1E /* Info-iOS.plist */,
-				90C4A9951C1C994500096C1E /* Abstraction */,
-				90C4A99D1C1C994500096C1E /* DefaultLoggers */,
-				90C4A9A01C1C994500096C1E /* Helpers */,
-				90C4A95E1C1C98C100096C1E /* SwiftyLogger.h */,
-				90C4A9A21C1C994500096C1E /* Logger.swift */,
-				90C4A9A31C1C994500096C1E /* LoggerFactory.swift */,
+				90451F401DC0B08D00809804 /* Abstraction */,
+				90451F4B1DC0B08D00809804 /* DefaultLoggers */,
+				90451F4E1DC0B08D00809804 /* Helpers */,
+				90451F491DC0B08D00809804 /* DefaultLogger.swift */,
+				90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */,
+				90451F3C1DC0B04A00809804 /* Info.plist */,
+				90451F3D1DC0B04A00809804 /* SwiftyLogger.h */,
 			);
+			name = Sources;
 			path = SwiftyLogger;
 			sourceTree = "<group>";
 		};
-		90C4A9691C1C98C100096C1E /* SwiftyLoggerTests */ = {
+		908B7B571DC0AFA300148CF8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				90C4A96A1C1C98C100096C1E /* SwiftyLoggerTests.swift */,
-				90C4A96C1C1C98C100096C1E /* Info.plist */,
+				90451F381DC0B03600809804 /* Info.plist */,
+				90451F3A1DC0B03B00809804 /* SwiftyLoggerTests.swift */,
 			);
+			name = Tests;
 			path = SwiftyLoggerTests;
-			sourceTree = "<group>";
-		};
-		90C4A9951C1C994500096C1E /* Abstraction */ = {
-			isa = PBXGroup;
-			children = (
-				90C4A9961C1C994500096C1E /* LoggerFactoryType.swift */,
-				90C4A9971C1C994500096C1E /* LoggerTarget.swift */,
-				90C4A9981C1C994500096C1E /* LoggerType.swift */,
-				90C4A9991C1C994500096C1E /* LoggerTypeExtensions.swift */,
-				90C4A99A1C1C994500096C1E /* LogLevel.swift */,
-				90C4A99B1C1C994500096C1E /* LogMessage.swift */,
-				90C4A99C1C1C994500096C1E /* LogMessageFormatterType.swift */,
-			);
-			path = Abstraction;
-			sourceTree = "<group>";
-		};
-		90C4A99D1C1C994500096C1E /* DefaultLoggers */ = {
-			isa = PBXGroup;
-			children = (
-				90C4A99E1C1C994500096C1E /* Console.swift */,
-				90C4A99F1C1C994500096C1E /* FileLogger.swift */,
-			);
-			path = DefaultLoggers;
-			sourceTree = "<group>";
-		};
-		90C4A9A01C1C994500096C1E /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				90C4A9A11C1C994500096C1E /* DefaultLogMessageFormatter.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		900EE6E41CB00888004AF16A /* Headers */ = {
+		90451F611DC0B48B00809804 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE7231CB00916004AF16A /* SwiftyLogger.h in Headers */,
+				90451F881DC0B68300809804 /* SwiftyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6F11CB008AA004AF16A /* Headers */ = {
+		90451F6E1DC0B4BB00809804 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE7161CB00901004AF16A /* SwiftyLogger.h in Headers */,
+				90451F871DC0B67400809804 /* SwiftyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6FE1CB008CE004AF16A /* Headers */ = {
+		90451F7B1DC0B4E300809804 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE7091CB008DF004AF16A /* SwiftyLogger.h in Headers */,
+				90451F861DC0B66C00809804 /* SwiftyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9581C1C98C100096C1E /* Headers */ = {
+		908B7B471DC0AFA300148CF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C4A95F1C1C98C100096C1E /* SwiftyLogger.h in Headers */,
+				90451F3F1DC0B04A00809804 /* SwiftyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		900EE6E61CB00888004AF16A /* SwiftyLogger_watchOS */ = {
+		90451F631DC0B48B00809804 /* SwiftyLogger-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 900EE6EC1CB00888004AF16A /* Build configuration list for PBXNativeTarget "SwiftyLogger_watchOS" */;
+			buildConfigurationList = 90451F691DC0B48B00809804 /* Build configuration list for PBXNativeTarget "SwiftyLogger-watchOS" */;
 			buildPhases = (
-				900EE6E21CB00888004AF16A /* Sources */,
-				900EE6E31CB00888004AF16A /* Frameworks */,
-				900EE6E41CB00888004AF16A /* Headers */,
-				900EE6E51CB00888004AF16A /* Resources */,
+				90451F5F1DC0B48B00809804 /* Sources */,
+				90451F601DC0B48B00809804 /* Frameworks */,
+				90451F611DC0B48B00809804 /* Headers */,
+				90451F621DC0B48B00809804 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyLogger_watchOS;
-			productName = SwiftyLogger_watchOS;
-			productReference = 900EE6E71CB00888004AF16A /* SwiftyLogger_watchOS.framework */;
+			name = "SwiftyLogger-watchOS";
+			productName = "SwiftyLogger-watchOS";
+			productReference = 90451F641DC0B48B00809804 /* SwiftyLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		900EE6F31CB008AA004AF16A /* SwiftyLogger_tvOS */ = {
+		90451F701DC0B4BB00809804 /* SwiftyLogger-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 900EE6F91CB008AA004AF16A /* Build configuration list for PBXNativeTarget "SwiftyLogger_tvOS" */;
+			buildConfigurationList = 90451F761DC0B4BB00809804 /* Build configuration list for PBXNativeTarget "SwiftyLogger-tvOS" */;
 			buildPhases = (
-				900EE6EF1CB008AA004AF16A /* Sources */,
-				900EE6F01CB008AA004AF16A /* Frameworks */,
-				900EE6F11CB008AA004AF16A /* Headers */,
-				900EE6F21CB008AA004AF16A /* Resources */,
+				90451F6C1DC0B4BB00809804 /* Sources */,
+				90451F6D1DC0B4BB00809804 /* Frameworks */,
+				90451F6E1DC0B4BB00809804 /* Headers */,
+				90451F6F1DC0B4BB00809804 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyLogger_tvOS;
-			productName = SwiftyLogger_tvOS;
-			productReference = 900EE6F41CB008AA004AF16A /* SwiftyLogger_tvOS.framework */;
+			name = "SwiftyLogger-tvOS";
+			productName = "SwiftyLogger-tvOS";
+			productReference = 90451F711DC0B4BB00809804 /* SwiftyLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		900EE7001CB008CE004AF16A /* SwiftyLogger_macOS */ = {
+		90451F7D1DC0B4E300809804 /* SwiftyLogger-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 900EE7061CB008CE004AF16A /* Build configuration list for PBXNativeTarget "SwiftyLogger_macOS" */;
+			buildConfigurationList = 90451F831DC0B4E300809804 /* Build configuration list for PBXNativeTarget "SwiftyLogger-macOS" */;
 			buildPhases = (
-				900EE6FC1CB008CE004AF16A /* Sources */,
-				900EE6FD1CB008CE004AF16A /* Frameworks */,
-				900EE6FE1CB008CE004AF16A /* Headers */,
-				900EE6FF1CB008CE004AF16A /* Resources */,
+				90451F791DC0B4E300809804 /* Sources */,
+				90451F7A1DC0B4E300809804 /* Frameworks */,
+				90451F7B1DC0B4E300809804 /* Headers */,
+				90451F7C1DC0B4E300809804 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyLogger_macOS;
-			productName = SwiftyLogger_macOS;
-			productReference = 900EE7011CB008CE004AF16A /* SwiftyLogger_macOS.framework */;
+			name = "SwiftyLogger-macOS";
+			productName = "SwiftyLogger-macOS";
+			productReference = 90451F7E1DC0B4E300809804 /* SwiftyLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		90C4A95A1C1C98C100096C1E /* SwiftyLogger_iOS */ = {
+		908B7B491DC0AFA300148CF8 /* SwiftyLogger-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90C4A96F1C1C98C100096C1E /* Build configuration list for PBXNativeTarget "SwiftyLogger_iOS" */;
+			buildConfigurationList = 908B7B5E1DC0AFA300148CF8 /* Build configuration list for PBXNativeTarget "SwiftyLogger-iOS" */;
 			buildPhases = (
-				90C4A9561C1C98C100096C1E /* Sources */,
-				90C4A9571C1C98C100096C1E /* Frameworks */,
-				90C4A9581C1C98C100096C1E /* Headers */,
-				90C4A9591C1C98C100096C1E /* Resources */,
+				908B7B451DC0AFA300148CF8 /* Sources */,
+				908B7B461DC0AFA300148CF8 /* Frameworks */,
+				908B7B471DC0AFA300148CF8 /* Headers */,
+				908B7B481DC0AFA300148CF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyLogger_iOS;
+			name = "SwiftyLogger-iOS";
 			productName = SwiftyLogger;
-			productReference = 90C4A95B1C1C98C100096C1E /* SwiftyLogger_iOS.framework */;
+			productReference = 908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		90C4A9641C1C98C100096C1E /* SwiftyLoggerTests */ = {
+		908B7B521DC0AFA300148CF8 /* SwiftyLoggerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90C4A9721C1C98C100096C1E /* Build configuration list for PBXNativeTarget "SwiftyLoggerTests" */;
+			buildConfigurationList = 908B7B611DC0AFA300148CF8 /* Build configuration list for PBXNativeTarget "SwiftyLoggerTests" */;
 			buildPhases = (
-				90C4A9611C1C98C100096C1E /* Sources */,
-				90C4A9621C1C98C100096C1E /* Frameworks */,
-				90C4A9631C1C98C100096C1E /* Resources */,
+				908B7B4F1DC0AFA300148CF8 /* Sources */,
+				908B7B501DC0AFA300148CF8 /* Frameworks */,
+				908B7B511DC0AFA300148CF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90C4A9681C1C98C100096C1E /* PBXTargetDependency */,
+				908B7B561DC0AFA300148CF8 /* PBXTargetDependency */,
 			);
 			name = SwiftyLoggerTests;
 			productName = SwiftyLoggerTests;
-			productReference = 90C4A9651C1C98C100096C1E /* SwiftyLoggerTests.xctest */;
+			productReference = 908B7B531DC0AFA300148CF8 /* SwiftyLoggerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		90C4A9521C1C98C100096C1E /* Project object */ = {
+		908B7B411DC0AFA300148CF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Michał Tynior";
 				TargetAttributes = {
-					900EE6E61CB00888004AF16A = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = SGZ6FVQB6B;
+					90451F631DC0B48B00809804 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 924FTKSN52;
+						ProvisioningStyle = Automatic;
 					};
-					900EE6F31CB008AA004AF16A = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = SGZ6FVQB6B;
+					90451F701DC0B4BB00809804 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 924FTKSN52;
+						ProvisioningStyle = Automatic;
 					};
-					900EE7001CB008CE004AF16A = {
-						CreatedOnToolsVersion = 7.3;
+					90451F7D1DC0B4E300809804 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 924FTKSN52;
+						ProvisioningStyle = Automatic;
 					};
-					90C4A95A1C1C98C100096C1E = {
-						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = SGZ6FVQB6B;
+					908B7B491DC0AFA300148CF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 924FTKSN52;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
-					90C4A9641C1C98C100096C1E = {
-						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = SGZ6FVQB6B;
+					908B7B521DC0AFA300148CF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 924FTKSN52;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 90C4A9551C1C98C100096C1E /* Build configuration list for PBXProject "SwiftyLogger" */;
+			buildConfigurationList = 908B7B441DC0AFA300148CF8 /* Build configuration list for PBXProject "SwiftyLogger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 90C4A9511C1C98C100096C1E;
-			productRefGroup = 90C4A95C1C1C98C100096C1E /* Products */;
+			mainGroup = 908B7B401DC0AFA300148CF8;
+			productRefGroup = 908B7B4B1DC0AFA300148CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90C4A95A1C1C98C100096C1E /* SwiftyLogger_iOS */,
-				90C4A9641C1C98C100096C1E /* SwiftyLoggerTests */,
-				900EE6E61CB00888004AF16A /* SwiftyLogger_watchOS */,
-				900EE6F31CB008AA004AF16A /* SwiftyLogger_tvOS */,
-				900EE7001CB008CE004AF16A /* SwiftyLogger_macOS */,
+				908B7B491DC0AFA300148CF8 /* SwiftyLogger-iOS */,
+				90451F631DC0B48B00809804 /* SwiftyLogger-watchOS */,
+				90451F701DC0B4BB00809804 /* SwiftyLogger-tvOS */,
+				90451F7D1DC0B4E300809804 /* SwiftyLogger-macOS */,
+				908B7B521DC0AFA300148CF8 /* SwiftyLoggerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		900EE6E51CB00888004AF16A /* Resources */ = {
+		90451F621DC0B48B00809804 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6F21CB008AA004AF16A /* Resources */ = {
+		90451F6F1DC0B4BB00809804 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6FF1CB008CE004AF16A /* Resources */ = {
+		90451F7C1DC0B4E300809804 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9591C1C98C100096C1E /* Resources */ = {
+		908B7B481DC0AFA300148CF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE7351CB0096F004AF16A /* Info-watchOS.plist in Resources */,
-				900EE7341CB0096F004AF16A /* Info-tvOS.plist in Resources */,
-				900EE7331CB0096F004AF16A /* Info-macOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9631C1C98C100096C1E /* Resources */ = {
+		908B7B511DC0AFA300148CF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,231 +460,246 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		900EE6E21CB00888004AF16A /* Sources */ = {
+		90451F5F1DC0B48B00809804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE7241CB00928004AF16A /* LoggerFactoryType.swift in Sources */,
-				900EE7251CB00928004AF16A /* LoggerTarget.swift in Sources */,
-				900EE7261CB00928004AF16A /* LoggerType.swift in Sources */,
-				900EE7271CB00928004AF16A /* LoggerTypeExtensions.swift in Sources */,
-				900EE7281CB00928004AF16A /* LogLevel.swift in Sources */,
-				900EE7291CB00928004AF16A /* LogMessage.swift in Sources */,
-				900EE72A1CB00928004AF16A /* LogMessageFormatterType.swift in Sources */,
-				900EE72B1CB00928004AF16A /* Console.swift in Sources */,
-				900EE72C1CB00928004AF16A /* FileLogger.swift in Sources */,
-				900EE72D1CB00928004AF16A /* DefaultLogMessageFormatter.swift in Sources */,
-				900EE72E1CB00928004AF16A /* Logger.swift in Sources */,
-				900EE72F1CB00928004AF16A /* LoggerFactory.swift in Sources */,
+				90451F891DC0B6B300809804 /* BaseLoggerTarget.swift in Sources */,
+				90451F8A1DC0B6B300809804 /* Logger.swift in Sources */,
+				90451F8B1DC0B6B300809804 /* LoggerExtensions.swift in Sources */,
+				90451F8C1DC0B6B300809804 /* LoggerFactory.swift in Sources */,
+				90451F8D1DC0B6B300809804 /* LoggerTarget.swift in Sources */,
+				90451F8E1DC0B6B300809804 /* LogLevel.swift in Sources */,
+				90451F8F1DC0B6B300809804 /* LogMessage.swift in Sources */,
+				90451F901DC0B6B300809804 /* LogMessageFormatterType.swift in Sources */,
+				90451F911DC0B6B300809804 /* ConsoleLogger.swift in Sources */,
+				90451F921DC0B6B300809804 /* FileLogger.swift in Sources */,
+				90451F931DC0B6B300809804 /* DefaultLogMessageFormatter.swift in Sources */,
+				90451F941DC0B6B300809804 /* DefaultLogger.swift in Sources */,
+				90451F951DC0B6B300809804 /* DefaultLoggerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6EF1CB008AA004AF16A /* Sources */ = {
+		90451F6C1DC0B4BB00809804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE7171CB0090B004AF16A /* LoggerFactoryType.swift in Sources */,
-				900EE7181CB0090B004AF16A /* LoggerTarget.swift in Sources */,
-				900EE7191CB0090B004AF16A /* LoggerType.swift in Sources */,
-				900EE71A1CB0090B004AF16A /* LoggerTypeExtensions.swift in Sources */,
-				900EE71B1CB0090B004AF16A /* LogLevel.swift in Sources */,
-				900EE71C1CB0090B004AF16A /* LogMessage.swift in Sources */,
-				900EE71D1CB0090B004AF16A /* LogMessageFormatterType.swift in Sources */,
-				900EE71E1CB0090B004AF16A /* Console.swift in Sources */,
-				900EE71F1CB0090B004AF16A /* FileLogger.swift in Sources */,
-				900EE7201CB0090B004AF16A /* DefaultLogMessageFormatter.swift in Sources */,
-				900EE7211CB0090B004AF16A /* Logger.swift in Sources */,
-				900EE7221CB0090B004AF16A /* LoggerFactory.swift in Sources */,
+				90451F961DC0B6C600809804 /* BaseLoggerTarget.swift in Sources */,
+				90451F971DC0B6C600809804 /* Logger.swift in Sources */,
+				90451F981DC0B6C600809804 /* LoggerExtensions.swift in Sources */,
+				90451F991DC0B6C600809804 /* LoggerFactory.swift in Sources */,
+				90451F9A1DC0B6C600809804 /* LoggerTarget.swift in Sources */,
+				90451F9B1DC0B6C600809804 /* LogLevel.swift in Sources */,
+				90451F9C1DC0B6C600809804 /* LogMessage.swift in Sources */,
+				90451F9D1DC0B6C600809804 /* LogMessageFormatterType.swift in Sources */,
+				90451F9E1DC0B6C600809804 /* ConsoleLogger.swift in Sources */,
+				90451F9F1DC0B6C600809804 /* FileLogger.swift in Sources */,
+				90451FA01DC0B6C600809804 /* DefaultLogMessageFormatter.swift in Sources */,
+				90451FA11DC0B6C600809804 /* DefaultLogger.swift in Sources */,
+				90451FA21DC0B6C600809804 /* DefaultLoggerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900EE6FC1CB008CE004AF16A /* Sources */ = {
+		90451F791DC0B4E300809804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE70A1CB008F7004AF16A /* LoggerFactoryType.swift in Sources */,
-				900EE70B1CB008F7004AF16A /* LoggerTarget.swift in Sources */,
-				900EE70C1CB008F7004AF16A /* LoggerType.swift in Sources */,
-				900EE70D1CB008F7004AF16A /* LoggerTypeExtensions.swift in Sources */,
-				900EE70E1CB008F7004AF16A /* LogLevel.swift in Sources */,
-				900EE70F1CB008F7004AF16A /* LogMessage.swift in Sources */,
-				900EE7101CB008F7004AF16A /* LogMessageFormatterType.swift in Sources */,
-				900EE7111CB008F7004AF16A /* Console.swift in Sources */,
-				900EE7121CB008F7004AF16A /* FileLogger.swift in Sources */,
-				900EE7131CB008F7004AF16A /* DefaultLogMessageFormatter.swift in Sources */,
-				900EE7141CB008F7004AF16A /* Logger.swift in Sources */,
-				900EE7151CB008F7004AF16A /* LoggerFactory.swift in Sources */,
+				90451FA31DC0B6D300809804 /* BaseLoggerTarget.swift in Sources */,
+				90451FA41DC0B6D300809804 /* Logger.swift in Sources */,
+				90451FA51DC0B6D300809804 /* LoggerExtensions.swift in Sources */,
+				90451FA61DC0B6D300809804 /* LoggerFactory.swift in Sources */,
+				90451FA71DC0B6D300809804 /* LoggerTarget.swift in Sources */,
+				90451FA81DC0B6D300809804 /* LogLevel.swift in Sources */,
+				90451FA91DC0B6D300809804 /* LogMessage.swift in Sources */,
+				90451FAA1DC0B6D300809804 /* LogMessageFormatterType.swift in Sources */,
+				90451FAB1DC0B6D300809804 /* ConsoleLogger.swift in Sources */,
+				90451FAC1DC0B6D300809804 /* FileLogger.swift in Sources */,
+				90451FAD1DC0B6D300809804 /* DefaultLogMessageFormatter.swift in Sources */,
+				90451FAE1DC0B6D300809804 /* DefaultLogger.swift in Sources */,
+				90451FAF1DC0B6D300809804 /* DefaultLoggerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9561C1C98C100096C1E /* Sources */ = {
+		908B7B451DC0AFA300148CF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C4A9A91C1C994500096C1E /* LogMessage.swift in Sources */,
-				90C4A9AE1C1C994500096C1E /* Logger.swift in Sources */,
-				90C4A9A51C1C994500096C1E /* LoggerTarget.swift in Sources */,
-				90C4A9A61C1C994500096C1E /* LoggerType.swift in Sources */,
-				90C4A9AB1C1C994500096C1E /* Console.swift in Sources */,
-				90C4A9AD1C1C994500096C1E /* DefaultLogMessageFormatter.swift in Sources */,
-				90C4A9AF1C1C994500096C1E /* LoggerFactory.swift in Sources */,
-				90C4A9AA1C1C994500096C1E /* LogMessageFormatterType.swift in Sources */,
-				90C4A9A41C1C994500096C1E /* LoggerFactoryType.swift in Sources */,
-				90C4A9AC1C1C994500096C1E /* FileLogger.swift in Sources */,
-				90C4A9A81C1C994500096C1E /* LogLevel.swift in Sources */,
-				90C4A9A71C1C994500096C1E /* LoggerTypeExtensions.swift in Sources */,
+				90451F531DC0B08D00809804 /* LoggerFactory.swift in Sources */,
+				90451F571DC0B08D00809804 /* LogMessageFormatterType.swift in Sources */,
+				90451F591DC0B08D00809804 /* DefaultLoggerFactory.swift in Sources */,
+				90451F561DC0B08D00809804 /* LogMessage.swift in Sources */,
+				90451F541DC0B08D00809804 /* LoggerTarget.swift in Sources */,
+				90451F581DC0B08D00809804 /* DefaultLogger.swift in Sources */,
+				90451F521DC0B08D00809804 /* LoggerExtensions.swift in Sources */,
+				90451F551DC0B08D00809804 /* LogLevel.swift in Sources */,
+				90451F5A1DC0B08D00809804 /* ConsoleLogger.swift in Sources */,
+				90451F5B1DC0B08D00809804 /* FileLogger.swift in Sources */,
+				90451F511DC0B08D00809804 /* Logger.swift in Sources */,
+				90451F5C1DC0B08D00809804 /* DefaultLogMessageFormatter.swift in Sources */,
+				90451F501DC0B08D00809804 /* BaseLoggerTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C4A9611C1C98C100096C1E /* Sources */ = {
+		908B7B4F1DC0AFA300148CF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C4A96B1C1C98C100096C1E /* SwiftyLoggerTests.swift in Sources */,
+				90451F5D1DC0B0F500809804 /* SwiftyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		90C4A9681C1C98C100096C1E /* PBXTargetDependency */ = {
+		908B7B561DC0AFA300148CF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90C4A95A1C1C98C100096C1E /* SwiftyLogger_iOS */;
-			targetProxy = 90C4A9671C1C98C100096C1E /* PBXContainerItemProxy */;
+			target = 908B7B491DC0AFA300148CF8 /* SwiftyLogger-iOS */;
+			targetProxy = 908B7B551DC0AFA300148CF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		900EE6ED1CB00888004AF16A /* Debug */ = {
+		90451F6A1DC0B48B00809804 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SwiftyLogger/Info-watchOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.SwiftyLogger-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-watchOS";
+				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		900EE6EE1CB00888004AF16A /* Release */ = {
+		90451F6B1DC0B48B00809804 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SwiftyLogger/Info-watchOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.SwiftyLogger-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-watchOS";
+				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		900EE6FA1CB008AA004AF16A /* Debug */ = {
+		90451F771DC0B4BB00809804 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyLogger/Info-tvOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.SwiftyLogger-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-tvOS";
+				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
-		900EE6FB1CB008AA004AF16A /* Release */ = {
+		90451F781DC0B4BB00809804 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyLogger/Info-tvOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.SwiftyLogger-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-tvOS";
+				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
-		900EE7071CB008CE004AF16A /* Debug */ = {
+		90451F841DC0B4E300809804 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyLogger/Info-macOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.SwiftyLogger-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-macOS";
+				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		900EE7081CB008CE004AF16A /* Release */ = {
+		90451F851DC0B4E300809804 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyLogger/Info-macOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.SwiftyLogger-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-macOS";
+				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		90C4A96D1C1C98C100096C1E /* Debug */ = {
+		908B7B5C1DC0AFA300148CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -675,10 +707,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -701,10 +736,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -712,10 +749,11 @@
 			};
 			name = Debug;
 		};
-		90C4A96E1C1C98C100096C1E /* Release */ = {
+		908B7B5D1DC0AFA300148CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -723,10 +761,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -743,9 +784,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -753,116 +796,134 @@
 			};
 			name = Release;
 		};
-		90C4A9701C1C98C100096C1E /* Debug */ = {
+		908B7B5F1DC0AFA300148CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyLogger/Info-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.SwiftyLogger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLogger;
+				PRODUCT_NAME = SwiftyLogger;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		90C4A9711C1C98C100096C1E /* Release */ = {
+		908B7B601DC0AFA300148CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyLogger/Info-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.SwiftyLogger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLogger;
+				PRODUCT_NAME = SwiftyLogger;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		90C4A9731C1C98C100096C1E /* Debug */ = {
+		908B7B621DC0AFA300148CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				INFOPLIST_FILE = SwiftyLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.SwiftyLoggerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLoggerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		90C4A9741C1C98C100096C1E /* Release */ = {
+		908B7B631DC0AFA300148CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 924FTKSN52;
 				INFOPLIST_FILE = SwiftyLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.SwiftyLoggerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLoggerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		900EE6EC1CB00888004AF16A /* Build configuration list for PBXNativeTarget "SwiftyLogger_watchOS" */ = {
+		90451F691DC0B48B00809804 /* Build configuration list for PBXNativeTarget "SwiftyLogger-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				900EE6ED1CB00888004AF16A /* Debug */,
-				900EE6EE1CB00888004AF16A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		900EE6F91CB008AA004AF16A /* Build configuration list for PBXNativeTarget "SwiftyLogger_tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				900EE6FA1CB008AA004AF16A /* Debug */,
-				900EE6FB1CB008AA004AF16A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		900EE7061CB008CE004AF16A /* Build configuration list for PBXNativeTarget "SwiftyLogger_macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				900EE7071CB008CE004AF16A /* Debug */,
-				900EE7081CB008CE004AF16A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		90C4A9551C1C98C100096C1E /* Build configuration list for PBXProject "SwiftyLogger" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90C4A96D1C1C98C100096C1E /* Debug */,
-				90C4A96E1C1C98C100096C1E /* Release */,
+				90451F6A1DC0B48B00809804 /* Debug */,
+				90451F6B1DC0B48B00809804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90C4A96F1C1C98C100096C1E /* Build configuration list for PBXNativeTarget "SwiftyLogger_iOS" */ = {
+		90451F761DC0B4BB00809804 /* Build configuration list for PBXNativeTarget "SwiftyLogger-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90C4A9701C1C98C100096C1E /* Debug */,
-				90C4A9711C1C98C100096C1E /* Release */,
+				90451F771DC0B4BB00809804 /* Debug */,
+				90451F781DC0B4BB00809804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90C4A9721C1C98C100096C1E /* Build configuration list for PBXNativeTarget "SwiftyLoggerTests" */ = {
+		90451F831DC0B4E300809804 /* Build configuration list for PBXNativeTarget "SwiftyLogger-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90C4A9731C1C98C100096C1E /* Debug */,
-				90C4A9741C1C98C100096C1E /* Release */,
+				90451F841DC0B4E300809804 /* Debug */,
+				90451F851DC0B4E300809804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908B7B441DC0AFA300148CF8 /* Build configuration list for PBXProject "SwiftyLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B7B5C1DC0AFA300148CF8 /* Debug */,
+				908B7B5D1DC0AFA300148CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908B7B5E1DC0AFA300148CF8 /* Build configuration list for PBXNativeTarget "SwiftyLogger-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B7B5F1DC0AFA300148CF8 /* Debug */,
+				908B7B601DC0AFA300148CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908B7B611DC0AFA300148CF8 /* Build configuration list for PBXNativeTarget "SwiftyLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B7B621DC0AFA300148CF8 /* Debug */,
+				908B7B631DC0AFA300148CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 90C4A9521C1C98C100096C1E /* Project object */;
+	rootObject = 908B7B411DC0AFA300148CF8 /* Project object */;
 }

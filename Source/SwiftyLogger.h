@@ -2,11 +2,11 @@
 //  SwiftyLogger.h
 //  SwiftyLogger
 //
-//  Created by Michał Tynior on 12/12/15.
-//  Copyright © 2015 Michał Tynior. All rights reserved.
+//  Created by Michal Tynior on 26/10/2016.
+//  Copyright © 2016 Michał Tynior. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for SwiftyLogger.
 FOUNDATION_EXPORT double SwiftyLoggerVersionNumber;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "900EE6E61CB00888004AF16A"
-               BuildableName = "SwiftyLogger_watchOS.framework"
-               BlueprintName = "SwiftyLogger_watchOS"
+               BlueprintIdentifier = "90451F631DC0B48B00809804"
+               BuildableName = "SwiftyLogger.framework"
+               BlueprintName = "SwiftyLogger-watchOS"
                ReferencedContainer = "container:SwiftyLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "900EE6E61CB00888004AF16A"
-            BuildableName = "SwiftyLogger_watchOS.framework"
-            BlueprintName = "SwiftyLogger_watchOS"
+            BlueprintIdentifier = "90451F631DC0B48B00809804"
+            BuildableName = "SwiftyLogger.framework"
+            BlueprintName = "SwiftyLogger-watchOS"
             ReferencedContainer = "container:SwiftyLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "900EE6E61CB00888004AF16A"
-            BuildableName = "SwiftyLogger_watchOS.framework"
-            BlueprintName = "SwiftyLogger_watchOS"
+            BlueprintIdentifier = "90451F631DC0B48B00809804"
+            BuildableName = "SwiftyLogger.framework"
+            BlueprintName = "SwiftyLogger-watchOS"
             ReferencedContainer = "container:SwiftyLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
