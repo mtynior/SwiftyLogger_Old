@@ -64,6 +64,10 @@
 		90451FAD1DC0B6D300809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
 		90451FAE1DC0B6D300809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
 		90451FAF1DC0B6D300809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
+		90451FB41DC0CEA600809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
+		90451FB51DC0CEA600809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
+		90451FB61DC0CEA700809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
+		90451FB71DC0CEA700809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
 		908B7B541DC0AFA300148CF8 /* SwiftyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */; };
 /* End PBXBuildFile section */
 
@@ -426,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90451FB51DC0CEA600809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90451FB61DC0CEA700809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90451FB71DC0CEA700809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90451FB41DC0CEA600809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
