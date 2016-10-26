@@ -1,8 +1,8 @@
 # Change Log
 
-#### 1.x Releases
+#### 2.x Releases
 
-- `2.0.x` Releases - [2.0.0](#200)
+- `2.0.x` Releases - [2.0.0](#200) | [2.0.1](#201)
 
 #### 1.x Releases
 
@@ -11,7 +11,14 @@
 
 ---
 
-## [2.0.0](https://github.com/mtynior/SwiftyLogger/releases/tag/1.2.0)
+## [2.0.1](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.1)
+Released on 2016-10-26.
+
+#### Updated
+- Update Scheme name for iOS target
+
+
+## [2.0.0](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.0)
 Released on 2016-10-26.
 
 #### Added

@@ -817,7 +817,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLogger;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-iOS";
 				PRODUCT_NAME = SwiftyLogger;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -838,7 +838,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLogger;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-iOS";
 				PRODUCT_NAME = SwiftyLogger;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
