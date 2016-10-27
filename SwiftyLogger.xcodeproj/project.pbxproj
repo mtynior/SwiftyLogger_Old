@@ -8,60 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		90451F3F1DC0B04A00809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90451F501DC0B08D00809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
-		90451F511DC0B08D00809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
-		90451F521DC0B08D00809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
-		90451F531DC0B08D00809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
-		90451F541DC0B08D00809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
-		90451F551DC0B08D00809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
-		90451F561DC0B08D00809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
-		90451F571DC0B08D00809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
 		90451F581DC0B08D00809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
 		90451F591DC0B08D00809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
-		90451F5A1DC0B08D00809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
-		90451F5B1DC0B08D00809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
-		90451F5C1DC0B08D00809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
 		90451F5D1DC0B0F500809804 /* SwiftyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F3A1DC0B03B00809804 /* SwiftyLoggerTests.swift */; };
 		90451F861DC0B66C00809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90451F871DC0B67400809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90451F881DC0B68300809804 /* SwiftyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 90451F3D1DC0B04A00809804 /* SwiftyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90451F891DC0B6B300809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
-		90451F8A1DC0B6B300809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
-		90451F8B1DC0B6B300809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
-		90451F8C1DC0B6B300809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
-		90451F8D1DC0B6B300809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
-		90451F8E1DC0B6B300809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
-		90451F8F1DC0B6B300809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
-		90451F901DC0B6B300809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
-		90451F911DC0B6B300809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
-		90451F921DC0B6B300809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
-		90451F931DC0B6B300809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
 		90451F941DC0B6B300809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
 		90451F951DC0B6B300809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
-		90451F961DC0B6C600809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
-		90451F971DC0B6C600809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
-		90451F981DC0B6C600809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
-		90451F991DC0B6C600809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
-		90451F9A1DC0B6C600809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
-		90451F9B1DC0B6C600809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
-		90451F9C1DC0B6C600809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
-		90451F9D1DC0B6C600809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
-		90451F9E1DC0B6C600809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
-		90451F9F1DC0B6C600809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
-		90451FA01DC0B6C600809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
 		90451FA11DC0B6C600809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
 		90451FA21DC0B6C600809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
-		90451FA31DC0B6D300809804 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */; };
-		90451FA41DC0B6D300809804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F421DC0B08D00809804 /* Logger.swift */; };
-		90451FA51DC0B6D300809804 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F431DC0B08D00809804 /* LoggerExtensions.swift */; };
-		90451FA61DC0B6D300809804 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F441DC0B08D00809804 /* LoggerFactory.swift */; };
-		90451FA71DC0B6D300809804 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F451DC0B08D00809804 /* LoggerTarget.swift */; };
-		90451FA81DC0B6D300809804 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F461DC0B08D00809804 /* LogLevel.swift */; };
-		90451FA91DC0B6D300809804 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F471DC0B08D00809804 /* LogMessage.swift */; };
-		90451FAA1DC0B6D300809804 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */; };
-		90451FAB1DC0B6D300809804 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */; };
-		90451FAC1DC0B6D300809804 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4D1DC0B08D00809804 /* FileLogger.swift */; };
-		90451FAD1DC0B6D300809804 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */; };
 		90451FAE1DC0B6D300809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
 		90451FAF1DC0B6D300809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
 		90451FB41DC0CEA600809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
@@ -69,6 +25,50 @@
 		90451FB61DC0CEA700809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
 		90451FB71DC0CEA700809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
 		908B7B541DC0AFA300148CF8 /* SwiftyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */; };
+		90F092571DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */; };
+		90F092581DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */; };
+		90F092591DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */; };
+		90F0925A1DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */; };
+		90F0925D1DC1D665000251A2 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925B1DC1D665000251A2 /* ConsoleLogger.swift */; };
+		90F0925E1DC1D665000251A2 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925B1DC1D665000251A2 /* ConsoleLogger.swift */; };
+		90F0925F1DC1D665000251A2 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925B1DC1D665000251A2 /* ConsoleLogger.swift */; };
+		90F092601DC1D665000251A2 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925B1DC1D665000251A2 /* ConsoleLogger.swift */; };
+		90F092611DC1D665000251A2 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925C1DC1D665000251A2 /* FileLogger.swift */; };
+		90F092621DC1D665000251A2 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925C1DC1D665000251A2 /* FileLogger.swift */; };
+		90F092631DC1D665000251A2 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925C1DC1D665000251A2 /* FileLogger.swift */; };
+		90F092641DC1D665000251A2 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0925C1DC1D665000251A2 /* FileLogger.swift */; };
+		90F0926D1DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092651DC1D670000251A2 /* BaseLoggerTarget.swift */; };
+		90F0926E1DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092651DC1D670000251A2 /* BaseLoggerTarget.swift */; };
+		90F0926F1DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092651DC1D670000251A2 /* BaseLoggerTarget.swift */; };
+		90F092701DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092651DC1D670000251A2 /* BaseLoggerTarget.swift */; };
+		90F092711DC1D670000251A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092661DC1D670000251A2 /* Logger.swift */; };
+		90F092721DC1D670000251A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092661DC1D670000251A2 /* Logger.swift */; };
+		90F092731DC1D670000251A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092661DC1D670000251A2 /* Logger.swift */; };
+		90F092741DC1D670000251A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092661DC1D670000251A2 /* Logger.swift */; };
+		90F092751DC1D670000251A2 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092671DC1D670000251A2 /* LoggerExtensions.swift */; };
+		90F092761DC1D670000251A2 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092671DC1D670000251A2 /* LoggerExtensions.swift */; };
+		90F092771DC1D670000251A2 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092671DC1D670000251A2 /* LoggerExtensions.swift */; };
+		90F092781DC1D670000251A2 /* LoggerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092671DC1D670000251A2 /* LoggerExtensions.swift */; };
+		90F092791DC1D670000251A2 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092681DC1D670000251A2 /* LoggerFactory.swift */; };
+		90F0927A1DC1D670000251A2 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092681DC1D670000251A2 /* LoggerFactory.swift */; };
+		90F0927B1DC1D670000251A2 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092681DC1D670000251A2 /* LoggerFactory.swift */; };
+		90F0927C1DC1D670000251A2 /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092681DC1D670000251A2 /* LoggerFactory.swift */; };
+		90F0927D1DC1D670000251A2 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092691DC1D670000251A2 /* LoggerTarget.swift */; };
+		90F0927E1DC1D670000251A2 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092691DC1D670000251A2 /* LoggerTarget.swift */; };
+		90F0927F1DC1D670000251A2 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092691DC1D670000251A2 /* LoggerTarget.swift */; };
+		90F092801DC1D670000251A2 /* LoggerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092691DC1D670000251A2 /* LoggerTarget.swift */; };
+		90F092811DC1D670000251A2 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926A1DC1D670000251A2 /* LogLevel.swift */; };
+		90F092821DC1D670000251A2 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926A1DC1D670000251A2 /* LogLevel.swift */; };
+		90F092831DC1D670000251A2 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926A1DC1D670000251A2 /* LogLevel.swift */; };
+		90F092841DC1D670000251A2 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926A1DC1D670000251A2 /* LogLevel.swift */; };
+		90F092851DC1D670000251A2 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926B1DC1D670000251A2 /* LogMessage.swift */; };
+		90F092861DC1D670000251A2 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926B1DC1D670000251A2 /* LogMessage.swift */; };
+		90F092871DC1D670000251A2 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926B1DC1D670000251A2 /* LogMessage.swift */; };
+		90F092881DC1D670000251A2 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926B1DC1D670000251A2 /* LogMessage.swift */; };
+		90F092891DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926C1DC1D670000251A2 /* LogMessageFormatterType.swift */; };
+		90F0928A1DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926C1DC1D670000251A2 /* LogMessageFormatterType.swift */; };
+		90F0928B1DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926C1DC1D670000251A2 /* LogMessageFormatterType.swift */; };
+		90F0928C1DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0926C1DC1D670000251A2 /* LogMessageFormatterType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,19 +86,8 @@
 		90451F3A1DC0B03B00809804 /* SwiftyLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyLoggerTests.swift; path = Tests/SwiftyLoggerTests.swift; sourceTree = SOURCE_ROOT; };
 		90451F3C1DC0B04A00809804 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		90451F3D1DC0B04A00809804 /* SwiftyLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyLogger.h; path = Source/SwiftyLogger.h; sourceTree = SOURCE_ROOT; };
-		90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLoggerTarget.swift; sourceTree = "<group>"; };
-		90451F421DC0B08D00809804 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		90451F431DC0B08D00809804 /* LoggerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerExtensions.swift; sourceTree = "<group>"; };
-		90451F441DC0B08D00809804 /* LoggerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerFactory.swift; sourceTree = "<group>"; };
-		90451F451DC0B08D00809804 /* LoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerTarget.swift; sourceTree = "<group>"; };
-		90451F461DC0B08D00809804 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
-		90451F471DC0B08D00809804 /* LogMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessage.swift; sourceTree = "<group>"; };
-		90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessageFormatterType.swift; sourceTree = "<group>"; };
 		90451F491DC0B08D00809804 /* DefaultLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultLogger.swift; path = Source/DefaultLogger.swift; sourceTree = SOURCE_ROOT; };
 		90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultLoggerFactory.swift; path = Source/DefaultLoggerFactory.swift; sourceTree = SOURCE_ROOT; };
-		90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLogger.swift; sourceTree = "<group>"; };
-		90451F4D1DC0B08D00809804 /* FileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
-		90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLogMessageFormatter.swift; sourceTree = "<group>"; };
 		90451F5E1DC0B16A00809804 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		90451F641DC0B48B00809804 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90451F711DC0B4BB00809804 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +98,17 @@
 		90451FB31DC0B83500809804 /* SwiftyLogger.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftyLogger.podspec; sourceTree = "<group>"; };
 		908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		908B7B531DC0AFA300148CF8 /* SwiftyLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultLogMessageFormatter.swift; path = Source/DefaultLogMessageFormatter.swift; sourceTree = SOURCE_ROOT; };
+		90F0925B1DC1D665000251A2 /* ConsoleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsoleLogger.swift; path = Source/ConsoleLogger.swift; sourceTree = SOURCE_ROOT; };
+		90F0925C1DC1D665000251A2 /* FileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileLogger.swift; path = Source/FileLogger.swift; sourceTree = SOURCE_ROOT; };
+		90F092651DC1D670000251A2 /* BaseLoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseLoggerTarget.swift; path = Source/BaseLoggerTarget.swift; sourceTree = SOURCE_ROOT; };
+		90F092661DC1D670000251A2 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = SOURCE_ROOT; };
+		90F092671DC1D670000251A2 /* LoggerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggerExtensions.swift; path = Source/LoggerExtensions.swift; sourceTree = SOURCE_ROOT; };
+		90F092681DC1D670000251A2 /* LoggerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggerFactory.swift; path = Source/LoggerFactory.swift; sourceTree = SOURCE_ROOT; };
+		90F092691DC1D670000251A2 /* LoggerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggerTarget.swift; path = Source/LoggerTarget.swift; sourceTree = SOURCE_ROOT; };
+		90F0926A1DC1D670000251A2 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Source/LogLevel.swift; sourceTree = SOURCE_ROOT; };
+		90F0926B1DC1D670000251A2 /* LogMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogMessage.swift; path = Source/LogMessage.swift; sourceTree = SOURCE_ROOT; };
+		90F0926C1DC1D670000251A2 /* LogMessageFormatterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogMessageFormatterType.swift; path = Source/LogMessageFormatterType.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,14 +154,14 @@
 		90451F401DC0B08D00809804 /* Abstraction */ = {
 			isa = PBXGroup;
 			children = (
-				90451F411DC0B08D00809804 /* BaseLoggerTarget.swift */,
-				90451F421DC0B08D00809804 /* Logger.swift */,
-				90451F431DC0B08D00809804 /* LoggerExtensions.swift */,
-				90451F441DC0B08D00809804 /* LoggerFactory.swift */,
-				90451F451DC0B08D00809804 /* LoggerTarget.swift */,
-				90451F461DC0B08D00809804 /* LogLevel.swift */,
-				90451F471DC0B08D00809804 /* LogMessage.swift */,
-				90451F481DC0B08D00809804 /* LogMessageFormatterType.swift */,
+				90F092681DC1D670000251A2 /* LoggerFactory.swift */,
+				90F092661DC1D670000251A2 /* Logger.swift */,
+				90F092671DC1D670000251A2 /* LoggerExtensions.swift */,
+				90F092691DC1D670000251A2 /* LoggerTarget.swift */,
+				90F092651DC1D670000251A2 /* BaseLoggerTarget.swift */,
+				90F0926A1DC1D670000251A2 /* LogLevel.swift */,
+				90F0926B1DC1D670000251A2 /* LogMessage.swift */,
+				90F0926C1DC1D670000251A2 /* LogMessageFormatterType.swift */,
 			);
 			name = Abstraction;
 			path = Source/Abstraction;
@@ -170,8 +170,8 @@
 		90451F4B1DC0B08D00809804 /* DefaultLoggers */ = {
 			isa = PBXGroup;
 			children = (
-				90451F4C1DC0B08D00809804 /* ConsoleLogger.swift */,
-				90451F4D1DC0B08D00809804 /* FileLogger.swift */,
+				90F0925B1DC1D665000251A2 /* ConsoleLogger.swift */,
+				90F0925C1DC1D665000251A2 /* FileLogger.swift */,
 			);
 			name = DefaultLoggers;
 			path = Source/DefaultLoggers;
@@ -180,7 +180,7 @@
 		90451F4E1DC0B08D00809804 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				90451F4F1DC0B08D00809804 /* DefaultLogMessageFormatter.swift */,
+				90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */,
 			);
 			name = Helpers;
 			path = Source/Helpers;
@@ -472,19 +472,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451F891DC0B6B300809804 /* BaseLoggerTarget.swift in Sources */,
-				90451F8A1DC0B6B300809804 /* Logger.swift in Sources */,
-				90451F8B1DC0B6B300809804 /* LoggerExtensions.swift in Sources */,
-				90451F8C1DC0B6B300809804 /* LoggerFactory.swift in Sources */,
-				90451F8D1DC0B6B300809804 /* LoggerTarget.swift in Sources */,
-				90451F8E1DC0B6B300809804 /* LogLevel.swift in Sources */,
-				90451F8F1DC0B6B300809804 /* LogMessage.swift in Sources */,
-				90451F901DC0B6B300809804 /* LogMessageFormatterType.swift in Sources */,
-				90451F911DC0B6B300809804 /* ConsoleLogger.swift in Sources */,
-				90451F921DC0B6B300809804 /* FileLogger.swift in Sources */,
-				90451F931DC0B6B300809804 /* DefaultLogMessageFormatter.swift in Sources */,
 				90451F941DC0B6B300809804 /* DefaultLogger.swift in Sources */,
+				90F092761DC1D670000251A2 /* LoggerExtensions.swift in Sources */,
+				90F0927E1DC1D670000251A2 /* LoggerTarget.swift in Sources */,
+				90F0925E1DC1D665000251A2 /* ConsoleLogger.swift in Sources */,
+				90F0928A1DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */,
+				90F092821DC1D670000251A2 /* LogLevel.swift in Sources */,
+				90F0927A1DC1D670000251A2 /* LoggerFactory.swift in Sources */,
+				90F092861DC1D670000251A2 /* LogMessage.swift in Sources */,
+				90F092581DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */,
+				90F092621DC1D665000251A2 /* FileLogger.swift in Sources */,
+				90F092721DC1D670000251A2 /* Logger.swift in Sources */,
 				90451F951DC0B6B300809804 /* DefaultLoggerFactory.swift in Sources */,
+				90F0926E1DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,19 +492,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451F961DC0B6C600809804 /* BaseLoggerTarget.swift in Sources */,
-				90451F971DC0B6C600809804 /* Logger.swift in Sources */,
-				90451F981DC0B6C600809804 /* LoggerExtensions.swift in Sources */,
-				90451F991DC0B6C600809804 /* LoggerFactory.swift in Sources */,
-				90451F9A1DC0B6C600809804 /* LoggerTarget.swift in Sources */,
-				90451F9B1DC0B6C600809804 /* LogLevel.swift in Sources */,
-				90451F9C1DC0B6C600809804 /* LogMessage.swift in Sources */,
-				90451F9D1DC0B6C600809804 /* LogMessageFormatterType.swift in Sources */,
-				90451F9E1DC0B6C600809804 /* ConsoleLogger.swift in Sources */,
-				90451F9F1DC0B6C600809804 /* FileLogger.swift in Sources */,
-				90451FA01DC0B6C600809804 /* DefaultLogMessageFormatter.swift in Sources */,
 				90451FA11DC0B6C600809804 /* DefaultLogger.swift in Sources */,
+				90F092771DC1D670000251A2 /* LoggerExtensions.swift in Sources */,
+				90F0927F1DC1D670000251A2 /* LoggerTarget.swift in Sources */,
+				90F0925F1DC1D665000251A2 /* ConsoleLogger.swift in Sources */,
+				90F0928B1DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */,
+				90F092831DC1D670000251A2 /* LogLevel.swift in Sources */,
+				90F0927B1DC1D670000251A2 /* LoggerFactory.swift in Sources */,
+				90F092871DC1D670000251A2 /* LogMessage.swift in Sources */,
+				90F092591DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */,
+				90F092631DC1D665000251A2 /* FileLogger.swift in Sources */,
+				90F092731DC1D670000251A2 /* Logger.swift in Sources */,
 				90451FA21DC0B6C600809804 /* DefaultLoggerFactory.swift in Sources */,
+				90F0926F1DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,19 +512,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451FA31DC0B6D300809804 /* BaseLoggerTarget.swift in Sources */,
-				90451FA41DC0B6D300809804 /* Logger.swift in Sources */,
-				90451FA51DC0B6D300809804 /* LoggerExtensions.swift in Sources */,
-				90451FA61DC0B6D300809804 /* LoggerFactory.swift in Sources */,
-				90451FA71DC0B6D300809804 /* LoggerTarget.swift in Sources */,
-				90451FA81DC0B6D300809804 /* LogLevel.swift in Sources */,
-				90451FA91DC0B6D300809804 /* LogMessage.swift in Sources */,
-				90451FAA1DC0B6D300809804 /* LogMessageFormatterType.swift in Sources */,
-				90451FAB1DC0B6D300809804 /* ConsoleLogger.swift in Sources */,
-				90451FAC1DC0B6D300809804 /* FileLogger.swift in Sources */,
-				90451FAD1DC0B6D300809804 /* DefaultLogMessageFormatter.swift in Sources */,
 				90451FAE1DC0B6D300809804 /* DefaultLogger.swift in Sources */,
+				90F092781DC1D670000251A2 /* LoggerExtensions.swift in Sources */,
+				90F092801DC1D670000251A2 /* LoggerTarget.swift in Sources */,
+				90F092601DC1D665000251A2 /* ConsoleLogger.swift in Sources */,
+				90F0928C1DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */,
+				90F092841DC1D670000251A2 /* LogLevel.swift in Sources */,
+				90F0927C1DC1D670000251A2 /* LoggerFactory.swift in Sources */,
+				90F092881DC1D670000251A2 /* LogMessage.swift in Sources */,
+				90F0925A1DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */,
+				90F092641DC1D665000251A2 /* FileLogger.swift in Sources */,
+				90F092741DC1D670000251A2 /* Logger.swift in Sources */,
 				90451FAF1DC0B6D300809804 /* DefaultLoggerFactory.swift in Sources */,
+				90F092701DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,19 +532,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451F531DC0B08D00809804 /* LoggerFactory.swift in Sources */,
-				90451F571DC0B08D00809804 /* LogMessageFormatterType.swift in Sources */,
 				90451F591DC0B08D00809804 /* DefaultLoggerFactory.swift in Sources */,
-				90451F561DC0B08D00809804 /* LogMessage.swift in Sources */,
-				90451F541DC0B08D00809804 /* LoggerTarget.swift in Sources */,
+				90F092751DC1D670000251A2 /* LoggerExtensions.swift in Sources */,
+				90F0927D1DC1D670000251A2 /* LoggerTarget.swift in Sources */,
+				90F0925D1DC1D665000251A2 /* ConsoleLogger.swift in Sources */,
+				90F092891DC1D670000251A2 /* LogMessageFormatterType.swift in Sources */,
+				90F092811DC1D670000251A2 /* LogLevel.swift in Sources */,
+				90F092791DC1D670000251A2 /* LoggerFactory.swift in Sources */,
+				90F092851DC1D670000251A2 /* LogMessage.swift in Sources */,
+				90F092571DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */,
+				90F092611DC1D665000251A2 /* FileLogger.swift in Sources */,
+				90F092711DC1D670000251A2 /* Logger.swift in Sources */,
 				90451F581DC0B08D00809804 /* DefaultLogger.swift in Sources */,
-				90451F521DC0B08D00809804 /* LoggerExtensions.swift in Sources */,
-				90451F551DC0B08D00809804 /* LogLevel.swift in Sources */,
-				90451F5A1DC0B08D00809804 /* ConsoleLogger.swift in Sources */,
-				90451F5B1DC0B08D00809804 /* FileLogger.swift in Sources */,
-				90451F511DC0B08D00809804 /* Logger.swift in Sources */,
-				90451F5C1DC0B08D00809804 /* DefaultLogMessageFormatter.swift in Sources */,
-				90451F501DC0B08D00809804 /* BaseLoggerTarget.swift in Sources */,
+				90F0926D1DC1D670000251A2 /* BaseLoggerTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

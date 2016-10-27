@@ -2,7 +2,7 @@
 
 #### 2.x Releases
 
-- `2.0.x` Releases - [2.0.0](#200) | [2.0.1](#201) | [2.0.2](#202)
+- `2.0.x` Releases - [2.0.0](#200) | [2.0.1](#201) | [2.0.2](#202) | [2.0.3](#203)
 
 #### 1.x Releases
 
@@ -11,7 +11,14 @@
 
 ---
 
-## [2.0.1](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.2)
+## [2.0.3](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.3)
+Released on 2016-10-27.
+
+#### Updated
+- Update file structure for SPM
+- Update Readme
+
+## [2.0.2](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.2)
 Released on 2016-10-26.
 
 #### Updated

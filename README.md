@@ -42,7 +42,7 @@ let package = Package(
     name: "MyApp",
     targets: [],
     dependencies: [
-        .Package(url: "https://github.com/mtynior/SwiftyLogger.git", versions: "1.0.0" ..< Version.max)
+        .Package(url: "https://github.com/mtynior/SwiftyLogger.git",  majorVersion: 2)
     ]
 )
 ```
