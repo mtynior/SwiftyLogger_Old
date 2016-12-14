@@ -2,7 +2,7 @@
 
 #### 2.x Releases
 
-- `2.0.x` Releases - [2.0.0](#200) | [2.0.1](#201) | [2.0.2](#202) | [2.0.3](#203)
+- `2.0.x` Releases - [2.0.0](#200) | [2.0.1](#201) | [2.0.2](#202) | [2.0.3](#203) | [2.0.4](#204)
 
 #### 1.x Releases
 
@@ -10,6 +10,12 @@
 - `1.0.x` Releases - [1.0.0](#100)
 
 ---
+
+## [2.0.4](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.4)
+Released on 2016-12-14.
+
+#### Fixed
+- Fixed [visibility of the `BaseLogger` class](https://github.com/mtynior/SwiftyLogger/pull/1).
 
 ## [2.0.3](https://github.com/mtynior/SwiftyLogger/releases/tag/2.0.3)
 Released on 2016-10-27.
