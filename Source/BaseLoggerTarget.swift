@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class BaseLoggerTarget: LoggerTarget {
+open class BaseLoggerTarget: LoggerTarget {
     
     public var minimumLogLevel: LogLevel?
     
