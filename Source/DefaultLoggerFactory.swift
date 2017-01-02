@@ -23,8 +23,9 @@ public class DefaultLoggerFactory: LoggerFactory {
         return  DefaultLogger(loggerFactory: self)
     }
     
-    public func addTarget(_ target: LoggerTarget) {
+    public func addTarget(_ target: LoggerTarget) -> LoggerFactory {
         loggerTargets.append(target)
+        return self
     }
     
 }
