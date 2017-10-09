@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ConsoleLogger: BaseLoggerTarget {
+open class ConsoleLogger: BaseLoggerTarget {
     
     public override func log(formattedMessage: String) {
         print(formattedMessage, separator: "", terminator: "\n")

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class FileLogger: BaseLoggerTarget {
+open class FileLogger: BaseLoggerTarget {
     
     public var logFileURL: URL?
     

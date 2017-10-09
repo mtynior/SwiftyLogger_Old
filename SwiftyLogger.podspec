@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftyLogger"
-  s.version      = "2.0.4"
+  s.version      = "2.1.0"
   s.summary      = "SwiftyLogger is flexible logging abstraction written in Swift."
 
   s.homepage     = "https://github.com/mtynior/SwiftyLogger"

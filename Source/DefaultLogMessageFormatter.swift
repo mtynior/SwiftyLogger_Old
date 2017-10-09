@@ -10,12 +10,16 @@ import Foundation
 
 public final class DefaultLogMessageFormatter: LogMessageFormatter {
     
-    private let _dateFormatter = DateFormatter()
+    private lazy var _dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .iso8601)
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.timeZone = TimeZone(identifier: "UTC")
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX"
+        return formatter
+    }()
     
-    
-    public init() {
-        _dateFormatter.dateFormat = "yyyy-MM-dd hh:mm::ss.SSS"
-    }
+    public init() { }
     
     public func format(message: LogMessage) -> String {
         let dateTimeString = _dateFormatter.string(from: message.timestamp)

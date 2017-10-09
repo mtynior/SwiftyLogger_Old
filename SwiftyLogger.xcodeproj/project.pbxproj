@@ -20,10 +20,6 @@
 		90451FA21DC0B6C600809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
 		90451FAE1DC0B6D300809804 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F491DC0B08D00809804 /* DefaultLogger.swift */; };
 		90451FAF1DC0B6D300809804 /* DefaultLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90451F4A1DC0B08D00809804 /* DefaultLoggerFactory.swift */; };
-		90451FB41DC0CEA600809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
-		90451FB51DC0CEA600809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
-		90451FB61DC0CEA700809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
-		90451FB71DC0CEA700809804 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90451F3C1DC0B04A00809804 /* Info.plist */; };
 		908B7B541DC0AFA300148CF8 /* SwiftyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B7B4A1DC0AFA300148CF8 /* SwiftyLogger.framework */; };
 		90F092571DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */; };
 		90F092581DC1D65A000251A2 /* DefaultLogMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F092561DC1D65A000251A2 /* DefaultLogMessageFormatter.swift */; };
@@ -372,12 +368,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Michał Tynior";
 				TargetAttributes = {
 					90451F631DC0B48B00809804 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 924FTKSN52;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					90451F701DC0B4BB00809804 = {
@@ -430,7 +427,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451FB51DC0CEA600809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +434,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451FB61DC0CEA700809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +441,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451FB71DC0CEA700809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +448,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90451FB41DC0CEA600809804 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +577,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -607,7 +599,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -629,7 +620,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -651,7 +641,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -676,7 +665,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -699,7 +687,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -712,7 +699,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -720,7 +709,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -751,6 +745,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -766,7 +761,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -774,7 +771,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -797,6 +799,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -821,7 +824,6 @@
 				PRODUCT_NAME = SwiftyLogger;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -841,7 +843,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mtynior.SwiftyLogger-iOS";
 				PRODUCT_NAME = SwiftyLogger;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -851,12 +852,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 924FTKSN52;
-				INFOPLIST_FILE = SwiftyLoggerTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLoggerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -866,11 +866,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 924FTKSN52;
-				INFOPLIST_FILE = SwiftyLoggerTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mtynior.SwiftyLoggerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

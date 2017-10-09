@@ -1,4 +1,4 @@
-#SwiftyLogger [![Swift 3.0](https://img.shields.io/badge/language-Swift-orange.svg?style=flat)](https://developer.apple.com/swift/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mtynior/SwiftyLogger/blob/master/LICENSE.md) [![CocoaPods](https://img.shields.io/cocoapods/v/SwiftyLogger.svg)](https://cocoapods.org/pods/SwiftyLogger) [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+#SwiftyLogger [![Swift 3.2](https://img.shields.io/badge/language-Swift-orange.svg?style=flat)](https://developer.apple.com/swift/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mtynior/SwiftyLogger/blob/master/LICENSE.md) [![CocoaPods](https://img.shields.io/cocoapods/v/SwiftyLogger.svg)](https://cocoapods.org/pods/SwiftyLogger) [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
 SwiftyLogger is flexible logging abstraction written in Swift.
