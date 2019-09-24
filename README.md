@@ -3,14 +3,20 @@
 
 SwiftyLogger is flexible logging abstraction written in Swift.
 
+<br />
+<br />
+<h1 align="center">Project is no longer maintained!</h1>
+<br />
+<br />
+
 ## Requirements
 
 - iOS 9.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.0+
 
-##Integration
+## Integration
 
-####CocoaPods
+#### CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install `SwiftyLogger` by adding it to your `Podfile`:
 
 ```ruby
@@ -23,7 +29,7 @@ end
 ```
 Run `pods install` or `pods update` to intagrate pods with your project.
 
-####Carthage
+#### Carthage
 You can use [Carthage](https://github.com/Carthage/Carthage) to install `SwiftyLogger ` by adding it to your `Cartfile`:
 
 ```
@@ -205,7 +211,7 @@ Now `loggerFactory` will produce following output:
 <Info> Hello world
 ```
 
-###Console logger
+### Console logger
 
 Default console logger is using `print` function to display log messages.
 
@@ -216,7 +222,7 @@ let loggerFactory = DefaultLoggerFactory().addTarget(consoleLogger)
 let loggerFactory = DefaultLoggerFactory().addConsole()
 ```
 
-###File logger
+### File logger
 
 By default, the file logger saves log messages in `Caches` folder in `application.log` file.
 
@@ -313,6 +319,6 @@ Now you can add your logger to the factory using fluent API:
 let loggerFactory = DefaultLoggerFactory().addMyLogger()
 ```
 
-##License
+## License
 
 SwiftyLogger is released under the MIT license. See LICENSE for details.
