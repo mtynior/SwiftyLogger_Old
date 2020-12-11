@@ -20,9 +20,8 @@ open class ConsoleLogger: BaseLoggerTarget {
 
 public extension LoggerFactory {
     
-    public func addCosole()  -> LoggerFactory {
-        self.addTarget(ConsoleLogger())
-        return self
+    public mutating func addCosole()  -> LoggerFactory {
+        return self.addTarget(ConsoleLogger())
     }
     
 }

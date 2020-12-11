@@ -17,7 +17,7 @@ public protocol LoggerFactory {
     var loggerTargets: [LoggerTarget] { get set }
     
     func makeLogger() -> Logger
-    
-    func addTarget(_ target: LoggerTarget) -> Void
-    
+
+    mutating func addTarget(_ target: LoggerTarget) -> LoggerFactory
+
 }
